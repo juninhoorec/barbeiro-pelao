@@ -1,5 +1,5 @@
 ﻿# barbeiro-pelão
-# 💈 Barbearia Hermanos - Projeto Front-End
+# 💈 Barbeiro Pelão - Projeto Front-End
 
 Este é um projeto de site de barbearia desenvolvido com **HTML, CSS e JavaScript**, focado em criar uma experiência moderna, elegante e responsiva.
 
