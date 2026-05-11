@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbeiro Pelão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-dot"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-symbol">✦</span>
+      <span class="logo-text">Pelão</span>
+    </div>
+    <nav class="menu">
+      <a href="#home" class="nav-link"><span>01</span> Início</a>
+      <a href="#servicos" class="nav-link"><span>02</span> Serviços</a>
+      <a href="#sobre" class="nav-link"><span>03</span> Sobre</a>
+      <a href="#contato" class="nav-link"><span>04</span> Contato</a>
+    </nav>
+    <a href="#contato" class="header-btn">Agendar</a>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-lines">
+      <div class="v-line"></div>
+      <div class="v-line"></div>
+      <div class="v-line"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">— Est. 2016 — Recife</p>
+      <h1 class="hero-title">
+        <span class="line-reveal">Estilo.</span>
+        <span class="line-reveal delay-1">Eficiencia</span>
+        <span class="line-reveal delay-2 gold-italic">Precisão.</span>
+      </h1>
+      <p class="hero-sub">Os melhores cortes da região, com a experiência de quem entende do assunto.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#contato">Agendar Horário</a>
+        <a class="btn-ghost" href="#servicos">Ver Serviços</a>
+      </div>
+    </div>
+
+    <div class="hero-side">
+      <div class="hero-badge">
+        <svg viewBox="0 0 100 100" class="badge-ring">
+          <path id="circle-text" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/>
+          <text>
+            <textPath href="#circle-text">BARBEIRO · PELÃO · BARBA · CORTE · </textPath>
+          </text>
+        </svg>
+        <span class="badge-center">✦</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrapper">
+    <div class="marquee">
+      <span>Corte Masculino</span>
+      <span class="dot">✦</span>
+      <span>Barba Completa</span>
+      <span class="dot">✦</span>
+      <span>Combo Premium</span>
+      <span class="dot">✦</span>
+      <span>Finalização</span>
+      <span class="dot">✦</span>
+      <span>Pigmentação</span>
+      <span class="dot">✦</span>
+      <span>Corte Masculino</span>
+      <span class="dot">✦</span>
+      <span>Barba Completa</span>
+      <span class="dot">✦</span>
+      <span>Combo Premium</span>
+      <span class="dot">✦</span>
+      <span>Finalização</span>
+      <span class="dot">✦</span>
+      <span>Pigmentação</span>
+      <span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="servicos">
+    <div class="section-header">
+      <p class="section-label">— O que fazemos</p>
+      <h2>Nossos <em>Serviços</em></h2>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">01</div>
+        <div class="card-img-wrap">
+          <img src="corte-masculino1.jpeg" alt="Corte Masculino">
+          <div class="card-img-overlay"></div>
+        </div>
+        <div class="card-body">
+          <h3>Corte Masculino</h3>
+          <p>Degradê, clássico e moderno. Executado com precisão milimétrica.</p>
+          <span class="card-price">R$ 60</span>
+        </div>
+      </div>
+
+      <div class="card card--featured">
+        <div class="card-num">02</div>
+        <div class="card-img-wrap">
+          <img src="barba.jpeg" alt="Barba">
+          <div class="card-img-overlay"></div>
+        </div>
+        <div class="card-body">
+          <h3>Barba</h3>
+          <p>Toalha quente, navalha afiada, acabamento perfeito.</p>
+          <span class="card-price">R$ 45</span>
+        </div>
+        <div class="featured-tag">Popular</div>
+      </div>
+
+      <div class="card">
+        <div class="card-num">03</div>
+        <div class="card-img-wrap">
+          <img src="combo.jpeg" alt="Combo Completo">
+          <div class="card-img-overlay"></div>
+        </div>
+        <div class="card-body">
+          <h3>Combo Completo</h3>
+          <p>Corte + barba + finalização premium. A experiência total.</p>
+          <span class="card-price">R$ 95</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre">
+    <div class="sobre-visual">
+      <img src="foto-pelao-fundo.jpeg" alt="Barbeiro Pelão">
+      <div class="sobre-tag">
+        <strong>+10</strong>
+        <span>anos de tradição</span>
+      </div>
+    </div>
+    <div class="sobre-content">
+      <p class="section-label">— Nossa História</p>
+      <h2>Mais do que um <em>corte</em>,<br>uma <em>experiência</em>.</h2>
+      <p class="sobre-text">Sou um Barbeiro especializado em cortes modernos e tradicionais. Nosso objetivo é entregar estilo e experiência de alto nível para cada cliente que passa pela nossa cadeira.</p>
+      <p class="sobre-text">Cada detalhe importa — da toalha quente à navalha. Você sai diferente.</p>
+      <div class="stats">
+        <div class="stat">
+          <strong>50+</strong>
+          <span>clientes mensais</span>
+        </div>
+        <div class="stat">
+          <strong>Unico</strong>
+          <span>barbeiro especialista</span>
+        </div>
+        <div class="stat">
+          <strong>4.9★</strong>
+          <span>avaliação no Google</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato">
+    <div class="contato-inner">
+      <p class="section-label">— Fale Conosco</p>
+      <h2>Pronto para <em>agendar</em>?</h2>
+      <p class="contato-sub">Entre em contato pelo WhatsApp ou venha nos visitar. Sem filas, sem esperas.</p>
+      <div class="contato-cards">
+        <a href="https://wa.me/5511999999999" class="contato-item" target="_blank">
+          <div class="contato-icon">📲</div>
+          <div>
+            <strong>WhatsApp</strong>
+            <span>(11) 99999-9999</span>
+          </div>
+          <div class="contato-arrow">→</div>
+        </a>
+        <div class="contato-item">
+          <div class="contato-icon">📍</div>
+          <div>
+            <strong>Endereço</strong>
+            <span>Rua Exemplo, 123 — Recife</span>
+          </div>
+          <div class="contato-arrow">→</div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">🕐</div>
+          <div>
+            <strong>Horário</strong>
+            <span>Seg–Sáb: 9h às 20h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">✦ Pelão</div>
+      <p>© 2026 Barbeiro Pelão · Recife</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Custom cursor
+    const cursor = document.querySelector('.cursor');
+    const dot = document.querySelector('.cursor-dot');
+    document.addEventListener('mousemove', e => {
+      cursor.style.transform = `translate(${e.clientX - 20}px, ${e.clientY - 20}px)`;
+      dot.style.transform = `translate(${e.clientX - 3}px, ${e.clientY - 3}px)`;
+    });
+    document.querySelectorAll('a, button, .card').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+    });
+
+    // Badge rotation
+    const badge = document.querySelector('.badge-ring');
+    let angle = 0;
+    setInterval(() => {
+      angle += 0.3;
+      badge.style.transform = `rotate(${angle}deg)`;
+    }, 16);
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.card, .stat, .contato-item, .sobre-content, .sobre-visual').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
